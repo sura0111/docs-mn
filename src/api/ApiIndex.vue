@@ -59,7 +59,7 @@ const filtered = computed(() => {
     <div class="header">
       <h1>API Reference</h1>
       <div class="api-filter">
-        <label for="api-filter">Filter</label>
+        <label for="api-filter">Филтер</label>
         <input
           ref="search"
           type="search"
@@ -93,7 +93,7 @@ const filtered = computed(() => {
     </div>
 
     <div v-if="!filtered.length" class="no-match">
-      No API matching "{{ query }}" found.
+      "{{ query }}"-тай таарах API олдсонгүй.
     </div>
   </div>
 </template>
