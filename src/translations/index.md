@@ -2,9 +2,9 @@
 aside: false
 ---
 
-# Translations {#translations}
+# Орчуулгууд {#translations}
 
-## Available Languages {#available-languages}
+## Боломжтой хэлүүд {#available-languages}
 
 - [English](https://vuejs.org/) [[source](https://github.com/vuejs/docs)]
 - [简体中文 / Simplified Chinese](https://cn.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-zh-cn)]
@@ -19,12 +19,14 @@ aside: false
 - [Русский / Russian](https://ru.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-ru)]
 - [Čeština / Czech](https://cs.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-cs)]
 
-## Work in Progress Languages {#work-in-progress-languages}
+## Ажлын явц дундах хэлүүд {#work-in-progress-languages}
 
 - [العربية / Arabic](https://ar.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-ar)]
+- [Монгол хэл / Mongolian](https://mn.vuejs.org/) [[source](https://github.com/vuejs-translations/docs-mn)]
 
-## Starting a new Translation {#starting-a-new-translation}
+## Шинээр орчуулга эхлүүлэх {#starting-a-new-translation}
 
-The Vue documentation has recently undergone a major revision, so translations in other languages are still missing or work-in-progress.
+Vue документууд саяхан шинэчлэгдсэн тул бусад хэл дээрх орчуулгууд байхгүй эсвэл ажлын явц дунд (work-in-progress) төлөвтэй байна.
 
-We welcome community efforts to provide more translations. Translation efforts are managed in the [vuejs-translations](https://github.com/vuejs-translations/) GitHub organization. If you are interested in contributing, please check out the [Translation Guidelines](https://github.com/vuejs-translations/guidelines/blob/main/README.md) to get started.
+Бид нэмэлт орчуулгуудыг нээлттэйгээр хүлээн авах болно. Орчуулгын ажил нь [vuejs-translations](https://github.com/vuejs-translations/) GitHub organization-д менеж хийгдэж байгаа. Хэрэв та оролцохын тулд сонирхож байгаа бол, эхлээд [Орчуулгын Заавар](https://github.com/vuejs-translations/guidelines/blob/main/README.md)-ыг шалгана уу.
+
