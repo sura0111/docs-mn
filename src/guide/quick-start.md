@@ -6,27 +6,27 @@ footer: false
 import { VTCodeGroup, VTCodeGroupTab } from '@vue/theme'
 </script>
 
-# Quick Start {#quick-start}
+# Хурдан эхлэх {#quick-start}
 
-## Try Vue Online {#try-vue-online}
+## Онлайнаар Vue-г турших {#try-vue-online}
 
-- To quickly get a taste of Vue, you can try it directly in our [Playground](https://play.vuejs.org/#eNo9jcEKwjAMhl/lt5fpQYfXUQfefAMvvRQbddC1pUuHUPrudg4HIcmXjyRZXEM4zYlEJ+T0iEPgXjn6BB8Zhp46WUZWDjCa9f6w9kAkTtH9CRinV4fmRtZ63H20Ztesqiylphqy3R5UYBqD1UyVAPk+9zkvV1CKbCv9poMLiTEfR2/IXpSoXomqZLtti/IFwVtA9A==).
+- Vue-г хурдан туршихийг хүсвэл, бидний [Тоглоомын талбай](https://play.vuejs.org/#eNo9jcEKwjAMhl/lt5fpQYfXUQfefAMvvRQbddC1pUuHUPrudg4HIcmXjyRZXEM4zYlEJ+T0iEPgXjn6BB8Zhp46WUZWDjCa9f6w9kAkTtH9CRinV4fmRtZ63H20Ztesqiylphqy3R5UYBqD1UyVAPk+9zkvV1CKbCv9poMLiTEfR2/IXpSoXomqZLtti/IFwVtA9A==) орж үзээрэй.
 
-- If you prefer a plain HTML setup without any build steps, you can use this [JSFiddle](https://jsfiddle.net/yyx990803/2ke1ab0z/) as your starting point.
+- Хэрэв та энгийн HTML тохиргоог, бүтээх хэрэгсэл шаардалгүй ашиглахыг хүсвэл энийг ашиглаарай [JSFiddle](https://jsfiddle.net/yyx990803/2ke1ab0z/).
 
-- If you are already familiar with Node.js and the concept of build tools, you can also try a complete build setup right within your browser on [StackBlitz](https://vite.new/vue).
+- Хэрэв та аль хэдийнээ Node.js болон бүтээх хэрэгслийн талаар мэдлэгтэй бол [StackBlitz](https://vite.new/vue) -г бровсер дээрээ туршиж болно.
 
 ## Creating a Vue Application {#creating-a-vue-application}
 
-:::tip Prerequisites
+:::tip Урьдчилсан нөхцөл
 
-- Familiarity with the command line
-- Install [Node.js](https://nodejs.org/) version 18.3 or higher
-  :::
+- Командын мөрийн талаар мэдлэгтэй байх
+- [Node.js](https://nodejs.org/) version 18.3 эсвэл дээш хувилбарыг суулгах
+:::
 
-In this section we will introduce how to scaffold a Vue [Single Page Application](/guide/extras/ways-of-using-vue#single-page-application-spa) on your local machine. The created project will be using a build setup based on [Vite](https://vitejs.dev) and allow us to use Vue [Single-File Components](/guide/scaling-up/sfc) (SFCs).
+Энэ хэсэгт бид Vue [Single Page Application](/guide/extras/ways-of-using-vue#single-page-application-spa) өөрийн компютер дээрээ хэрхэн суулгах талаар танилцуулах болно. Үүсгэсэн прожект нь [Vite](https://vitejs.dev)-д суурилсан бүтээх тохиргоог ашиглах бөгөөд Vue [Нэг бүрэлдэхүүнт файл](/guide/scaling-up/sfc) (НБФ)-уудыг ашиглах боломжийг бидэнд олгоно.
 
-Make sure you have an up-to-date version of [Node.js](https://nodejs.org/) installed and your current working directory is the one where you intend to create a project. Run the following command in your command line (without the `$` sign):
+Та Node.js- ийн хамгийн сүүлийн үеийн хувилбарыг суулгасан эсэхээ шалгаарай, мөн таны одоогийн ажиллаж буй фолдер нь прожект үүсгэх гэж байгаа фолдер мөн эсэхийг шалгаарай. Командын мөрөнд дараах тушаалыг ажиллуулна уу (`$` тэмдэггүй):
 
 <VTCodeGroup>
   <VTCodeGroupTab label="npm">
@@ -59,7 +59,7 @@ Make sure you have an up-to-date version of [Node.js](https://nodejs.org/) insta
   </VTCodeGroupTab>
 </VTCodeGroup>
 
-This command will install and execute [create-vue](https://github.com/vuejs/create-vue), the official Vue project scaffolding tool. You will be presented with prompts for several optional features such as TypeScript and testing support:
+Энэ тушаал нь [create-vue](https://github.com/vuejs/create-vue)-г ажиллуулж, Vue прожектыг бүтээх албан ёсны шатлалт хэрэгслийг ажиллуулна. Танаас TypeScript болон тестийн дэмжлэг зэрэг хэд хэдэн нэмэлт функцуудын талаар сануулга үзүүлэх болно:
 
 <div class="language-sh"><pre><code><span style="color:var(--vt-c-green);">✔</span> <span style="color:#A6ACCD;">Project name: <span style="color:#888;">… <span style="color:#89DDFF;">&lt;</span><span style="color:#888;">your-project-name</span><span style="color:#89DDFF;">&gt;</span></span></span>
 <span style="color:var(--vt-c-green);">✔</span> <span style="color:#A6ACCD;">Add TypeScript? <span style="color:#888;">… <span style="color:#89DDFF;text-decoration:underline">No</span> / Yes</span></span>
@@ -75,7 +75,7 @@ This command will install and execute [create-vue](https://github.com/vuejs/crea
 <span style="color:#A6ACCD;">Scaffolding project in ./<span style="color:#89DDFF;">&lt;</span><span style="color:#888;">your-project-name</span><span style="color:#89DDFF;">&gt;</span>...</span>
 <span style="color:#A6ACCD;">Done.</span></code></pre></div>
 
-If you are unsure about an option, simply choose `No` by hitting enter for now. Once the project is created, follow the instructions to install dependencies and start the dev server:
+Хэрэв та сонголтын талаар эргэлзэж байвал `No` -г сонгон enter товчийг дараарай. Прожектийг үүсгэсний дараа хамааралтай багцуудыг суулгаж, хөгжүүлэх серверийг эхлүүлэх зааврыг дагана уу:
 
 <VTCodeGroup>
   <VTCodeGroupTab label="npm">
@@ -116,14 +116,14 @@ If you are unsure about an option, simply choose `No` by hitting enter for now. 
   </VTCodeGroupTab>
 </VTCodeGroup>
 
-You should now have your first Vue project running! Note that the example components in the generated project are written using the [Composition API](/guide/introduction#composition-api) and `<script setup>`, rather than the [Options API](/guide/introduction#options-api). Here are some additional tips:
+Та одоо анхны Vue прожектоо ажиллуулах боломжтой боллоо! Үүсгэсэн прожектийн жишээ компонентуудыг [Сонголтын API](/guide/introduction#options-api) биш харин [Зохиолын API](/guide/introduction#composition-api) болон `<script setup>` ашиглан бичсэн болохыг анхаарна уу. Энд зарим нэмэлт зөвлөгөө байна:
 
-- The recommended IDE setup is [Visual Studio Code](https://code.visualstudio.com/) + [Vue - Official extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar). If you use other editors, check out the [IDE support section](/guide/scaling-up/tooling#ide-support).
-- More tooling details, including integration with backend frameworks, are discussed in the [Tooling Guide](/guide/scaling-up/tooling).
-- To learn more about the underlying build tool Vite, check out the [Vite docs](https://vitejs.dev).
-- If you choose to use TypeScript, check out the [TypeScript Usage Guide](typescript/overview).
+- [Visual Studio Code](https://code.visualstudio.com/) + [Vue - Official extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) IDE тохиргоо хийхийг санал болгож байна. Хэрэв та өөр код засварлагч ашиглах бол [IDE дэмжлэг](/guide/scaling-up/tooling#ide-support)-ийн хэсгийг шалгана уу.
+- Backend-тэй холбох зэрэг өөр бусад хэрэглүүрийн дэлгэрэнгүйг [Хэрэглүүрийн хөтөч](/guide/scaling-up/tooling) хэсгээс харна уу.
+- Vite бүтээх хэрэгслийн талаар илүү ихийг мэдэхийг хүсвэл [Vite докс](https://vitejs.dev)-ийг шалгана уу.
+- Хэрэв та TypeScript ашиглах бол [TypeScript Гарын Авлага](typescript/overview)-г үзнэ үү .
 
-When you are ready to ship your app to production, run the following:
+Та өөрийн програмыг үйлдвэрлэхэд бэлэн бол дараах командыг ажиллуулна уу:
 
 <VTCodeGroup>
   <VTCodeGroupTab label="npm">
@@ -156,9 +156,9 @@ When you are ready to ship your app to production, run the following:
   </VTCodeGroupTab>
 </VTCodeGroup>
 
-This will create a production-ready build of your app in the project's `./dist` directory. Check out the [Production Deployment Guide](/guide/best-practices/production-deployment) to learn more about shipping your app to production.
+Энэ нь `./dist` фолдер дотор үйлдвэрлэсэн файлыг үүсгэх болно. Үйлдвэрлэлийн талаар илүү ихийг мэдэхийг хүсвэл [Үйлдвэрлэх гарын авлага](/guide/best-practices/production-deployment)-г шалгаарай.
 
-[Next Steps >](#next-steps)
+[Дараагийн алхамууд >](#next-steps)
 
 ## Using Vue from CDN {#using-vue-from-cdn}
 
