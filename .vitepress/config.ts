@@ -124,7 +124,7 @@ const nav: ThemeConfig['nav'] = [
     link: '/sponsor/'
   },
   {
-    text: 'Хартрагчид',
+    text: 'Хамтрагчид',
     link: '/partners/',
     activeMatch: `^/partners/`
   }
