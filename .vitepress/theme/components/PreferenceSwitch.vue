@@ -69,13 +69,13 @@ function useToggleFn(
       @mousedown="removeOutline"
       @blur="restoreOutline"
     >
-      <span>API Preference</span>
+      <span>API Сонголт</span>
       <VTIconChevronDown class="vt-link-icon" :class="{ open: isOpen }" />
     </button>
     <div id="preference-switches" :hidden="!isOpen" :aria-hidden="!isOpen">
       <div class="switch-container">
         <label class="options-label" @click="toggleCompositionAPI(false)"
-          >Options</label
+          >Сонголтын</label
         >
         <VTSwitch
           class="api-switch"
@@ -86,7 +86,7 @@ function useToggleFn(
         <label
           class="composition-label"
           @click="toggleCompositionAPI(true)"
-          >Composition</label
+          >Зохиолын</label
         >
         <a
           class="switch-link"
@@ -105,7 +105,7 @@ function useToggleFn(
           :aria-checked="preferSFC"
           @click="toggleSFC()"
         />
-        <label class="sfc-label" @click="toggleSFC(true)">SFC</label>
+        <label class="sfc-label" @click="toggleSFC(true)">НБФ</label>
         <a
           class="switch-link"
           title="About SFC"

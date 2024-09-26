@@ -23,7 +23,7 @@ onMounted(async () => {
     <p class="actions">
       <VueMasteryModal />
       <a class="get-started" href="/guide/introduction.html">
-        Ашилглаж эхлэх
+        Ашиглаж эхлэх
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"

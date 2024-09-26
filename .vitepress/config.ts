@@ -8,22 +8,22 @@ import { headerPlugin } from './headerMdPlugin'
 
 const nav: ThemeConfig['nav'] = [
   {
-    text: 'Docs',
+    text: 'Докс',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
-      { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Quick Start', link: '/guide/quick-start' },
+      { text: 'Хөтөч', link: '/guide/introduction' },
+      { text: 'Зааварчилгаа', link: '/tutorial/' },
+      { text: 'Жишээ', link: '/examples/' },
+      { text: 'Хурдан эхлэх', link: '/guide/quick-start' },
       // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
-      { text: 'Error Reference', link: '/error-reference/' },
+      { text: 'Тайлбар толь', link: '/glossary/' },
+      { text: 'Алдааны лавлагаа', link: '/error-reference/' },
       {
-        text: 'Vue 2 Docs',
+        text: 'Vue 2 Докс',
         link: 'https://v2.vuejs.org'
       },
       {
-        text: 'Migration from Vue 2',
+        text: 'Vue 2-с шинэчлэх заавар',
         link: 'https://v3-migration.vuejs.org/'
       }
     ]
@@ -34,29 +34,29 @@ const nav: ThemeConfig['nav'] = [
     link: '/api/'
   },
   {
-    text: 'Playground',
+    text: 'Тоглоомийн талбай',
     link: 'https://play.vuejs.org'
   },
   {
-    text: 'Ecosystem',
+    text: 'Экосистем',
     activeMatch: `^/ecosystem/`,
     items: [
       {
-        text: 'Resources',
+        text: 'Нөөц ресорс',
         items: [
-          { text: 'Partners', link: '/partners/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
-          { text: 'UI Components', link: 'https://ui-libs.vercel.app/' },
+          { text: 'Хамтрагчид', link: '/partners/' },
+          { text: 'Өнгөний загварууд', link: '/ecosystem/themes' },
+          { text: 'UI Компонентууд', link: 'https://ui-libs.vercel.app/' },
           {
-            text: 'Certification',
+            text: 'Сертификат',
             link: 'https://certification.vuejs.org/?ref=vuejs-nav'
           },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+          { text: 'Ажлууд', link: 'https://vuejobs.com/?ref=vuejs' },
+          { text: 'Подволкний дэлгүүр', link: 'https://vue.threadless.com/' }
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Албан ёсны багч хэрэгслүүд',
         items: [
           { text: 'Vue Router', link: 'https://router.vuejs.org/' },
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
@@ -64,7 +64,7 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Video Courses',
+        text: 'Видёо хичээлүүд',
         items: [
           {
             text: 'Vue Mastery',
@@ -77,54 +77,54 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Help',
+        text: 'Туслах',
         items: [
           {
-            text: 'Discord Chat',
+            text: 'Discord чат',
             link: 'https://discord.com/invite/HBherRA'
           },
           {
-            text: 'GitHub Discussions',
+            text: 'GitHub хэлэлцүүлэг',
             link: 'https://github.com/vuejs/core/discussions'
           },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+          { text: 'DEV коммюнити', link: 'https://dev.to/t/vue' }
         ]
       },
       {
-        text: 'News',
+        text: 'Мэдээ',
         items: [
-          { text: 'Blog', link: 'https://blog.vuejs.org/' },
+          { text: 'Блог', link: 'https://blog.vuejs.org/' },
           { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'Ивентүүд', link: 'https://events.vuejs.org/' },
+          { text: 'Мэдээнүүд', link: '/ecosystem/newsletters' }
         ]
       }
     ]
   },
   {
-    text: 'About',
+    text: 'Бидний тухай',
     activeMatch: `^/about/`,
     items: [
-      { text: 'FAQ', link: '/about/faq' },
-      { text: 'Team', link: '/about/team' },
+      { text: 'Асуулт/Хариулт', link: '/about/faq' },
+      { text: 'Баг', link: '/about/team' },
       { text: 'Releases', link: '/about/releases' },
       {
-        text: 'Community Guide',
+        text: 'Коммюнити Хөтөч',
         link: '/about/community-guide'
       },
       { text: 'Code of Conduct', link: '/about/coc' },
       {
-        text: 'The Documentary',
+        text: 'Баримтат кино',
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
   },
   {
-    text: 'Sponsor',
+    text: 'Спонсор',
     link: '/sponsor/'
   },
   {
-    text: 'Partners',
+    text: 'Хамтрагчид',
     link: '/partners/',
     activeMatch: `^/partners/`
   }
@@ -133,81 +133,81 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/guide/': [
     {
-      text: 'Getting Started',
+      text: 'Эхлэх',
       items: [
-        { text: 'Introduction', link: '/guide/introduction' },
+        { text: 'Танилцуулга', link: '/guide/introduction' },
         {
-          text: 'Quick Start',
+          text: 'Хурдан эхлэх',
           link: '/guide/quick-start'
         }
       ]
     },
     {
-      text: 'Essentials',
+      text: 'Гол зүйлс',
       items: [
         {
-          text: 'Creating an Application',
+          text: 'Апликейшн үүсгэх',
           link: '/guide/essentials/application'
         },
         {
-          text: 'Template Syntax',
+          text: 'Загварын синтакс',
           link: '/guide/essentials/template-syntax'
         },
         {
-          text: 'Reactivity Fundamentals',
+          text: 'Реактивын үндэс',
           link: '/guide/essentials/reactivity-fundamentals'
         },
         {
-          text: 'Computed Properties',
+          text: 'Тооцоологч проперти',
           link: '/guide/essentials/computed'
         },
         {
-          text: 'Class and Style Bindings',
+          text: 'Class and Style холболт',
           link: '/guide/essentials/class-and-style'
         },
         {
-          text: 'Conditional Rendering',
+          text: 'Нөхцөлт дүрслэлүүд',
           link: '/guide/essentials/conditional'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
+        { text: 'Лист дүрслэл', link: '/guide/essentials/list' },
         {
-          text: 'Event Handling',
+          text: 'Ивент зохицуулалт',
           link: '/guide/essentials/event-handling'
         },
-        { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
+        { text: 'Форм', link: '/guide/essentials/forms' },
         {
-          text: 'Lifecycle Hooks',
+          text: 'Эргэх холбооны дэгээнүүд',
           link: '/guide/essentials/lifecycle'
         },
         { text: 'Watchers', link: '/guide/essentials/watchers' },
-        { text: 'Template Refs', link: '/guide/essentials/template-refs' },
+        { text: 'Загварын Ref-ууд', link: '/guide/essentials/template-refs' },
         {
-          text: 'Components Basics',
+          text: 'Компонентийн үндэс',
           link: '/guide/essentials/component-basics'
         }
       ]
     },
     {
-      text: 'Components In-Depth',
+      text: 'Компонентийн гүнзгий',
       items: [
         {
-          text: 'Registration',
+          text: 'Бүртгэл',
           link: '/guide/components/registration'
         },
-        { text: 'Props', link: '/guide/components/props' },
-        { text: 'Events', link: '/guide/components/events' },
-        { text: 'Component v-model', link: '/guide/components/v-model' },
+        { text: 'Проп', link: '/guide/components/props' },
+        { text: 'Ивент', link: '/guide/components/events' },
+        { text: 'Компонентийн v-model', link: '/guide/components/v-model' },
         {
           text: 'Fallthrough Attributes',
           link: '/guide/components/attrs'
         },
-        { text: 'Slots', link: '/guide/components/slots' },
+        { text: 'Слотууд', link: '/guide/components/slots' },
         {
           text: 'Provide / inject',
           link: '/guide/components/provide-inject'
         },
         {
-          text: 'Async Components',
+          text: 'Async Компонентууд',
           link: '/guide/components/async'
         }
       ]

@@ -1,6 +1,6 @@
 ---
 page: true
-title: Tutorial
+title: Зааварчилгаа
 sidebar: false
 aside: false
 footer: false
